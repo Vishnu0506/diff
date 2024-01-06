@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differentiation</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<h1 style="text-align: center; font-size: 60px;" >Differentiation. </h1>
+<div class="grid">
+<div class="one border" >
+<h3 > Chain Rule</h3>
+<P>  (f(x(z(x)))ᵍ⁽ˣ⁾)' = g(x)f(x(z(x)))ᵍ⁽ˣ⁾'f(x(z(x)))'z(x)' <br>
+    Example - <br> 
+    1. (Sin(x)ᵀᵃⁿˣ)' = Tanx(sin(x))ˢᵉᶜ^² ˣcosx. <br>
+    2. (Sin(Sec(x)))' = Cos(Sec(x))Sec(x)Tan(x). <br>
+    3. (Tan(Cot(3x))ˢᵉᶜ⁽²ˣ⁾)' = Sec(2x)Tan(Cot(3x))ˢᵉᶜ⁽²ˣ⁾ᵀᵃⁿ⁽²ˣ⁾⁽²⁾Sec²(Cot(3x))(-cosec²(3x))(3)
+</P>
+</div>
+
+<div class="two border" >
+    <h3> Product Rule </h3>
+    <P> (x.y.z)' = x'.y.z  + x.y'.z + x.y.z' <br>
+    Example - <br> 
+    1. (Sin(2x)Cos(3x))' = Cos(2x)(2)Cos(3x) + Sin(3x)(-Sin(3x)(3)) <br>   </P>
+</div>
+
+<div class="three border " >
+    <h3> Quotient Rule </h3>
+    <P> (x/y)' =  (x'y - xy') / y² <br>
+    Example - <br>
+    1. (Sin(2x) / Cos(5x))' = (Cos(2x)(2)Cos(5x) - Sin(2x)(-Sin(5x))(5)) / Cos²(5x)  
+     </P>
+</div>
+
+<div class="four border" >
+    <h3> Implicit Functions </h3>
+    <P> (f(x,z) = 0 )' = -(∂f/dx)/(∂f/dz) <br>
+    Example - <br>
+    1. (x² + y² + 2xy² + 2x²y)' =  -(2x + 0 + 2y² + 4xy) / (0 + 2y + 4xy + 2x²)   
+
+    </P>
+</div>
+
+</div>
+</body>
+</html>
